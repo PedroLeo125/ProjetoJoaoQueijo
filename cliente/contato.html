@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Pão de Queijo do Seu João</title>
+  <style>
+    body {
+      background-color: #f2aee7; /* cor de fundo */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Centraliza todo o texto */
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centraliza todos os itens dentro do main */
+      justify-content: center;
+      height: 100vh; /* Ocupa toda a altura da tela */
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #d84315;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    input[type="text"], input[type="tel"], textarea {
+      padding: 8px;
+      width: 300px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #d84315;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #a52a2a;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pão de Queijo do Seu João</h1>
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="sobre.html">Sobre</a> |
+      <a href="produtos.html">Produtos</a>
+    </nav>
+  </header>
+  <img src="/pão de queijo 4.jpg" alt="Pão de Queijo 4" style="width: 550px; height: 450px;">
+  <main>
+    <h2>Fale com a gente!</h2>
+    <p>Endereço: Rua das Mangueiras, 123 – Bairro Jardim Esperança</p>
+    <p>Telefone: (11) 91234-5678</p>
+    <p>E-mail: <a href="mailto:seujoao.pao@gmail.com">seujoao.pao@gmail.com</a></p>
+    <p>Funcionamento: Segunda a sábado, das 8h às 18h</p>
+    <p>Formas de entrega: Retirada no local ou entrega por motoboy (a combinar)</p>
+
+    <form>
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+
+      <label for="telefone">Telefone:</label><br>
+      <input type="tel" id="telefone" name="telefone"><br><br>
+
+      <label for="mensagem">Pedido:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Enviar Pedido">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Pão de Queijo do Seu João</p>
+  </footer>
+</body>
+</html>
